@@ -1,7 +1,15 @@
+footer{
+    background-color: whitesmoke;
+}
+
 #copyrightContainer{
     float: left;
 }
 
 #author{
     float: right;
+}
+
+#footerLogo, #copyright{
+    float: left;
 }
