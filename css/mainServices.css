@@ -1,6 +1,6 @@
 #mainServicesBackground {
     position: absolute;
-    top: 80px;
+    top: 89px;
     height: 500px;
 }
 
@@ -23,14 +23,17 @@
 }
 
 #mainServices {
+    width: 100%;
     height: 500px;
     position: relative;
     z-index: 9999;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .mainService {
+    flex-grow: 1;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
