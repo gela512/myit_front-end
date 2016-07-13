@@ -1,0 +1,14 @@
+@font-face {
+    src: url(../fonts/din-medium.ttf);
+    font-family: din_medium;
+}
+
+@font-face {
+    src: url(../fonts/montserrat/Montserrat-Bold.otf);
+    font-family: mon_bold;
+}
+
+@font-face {
+    src: url(../fonts/arvo/Arvo-regular.ttf);
+    font-family: avro_reg;
+}

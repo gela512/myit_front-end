@@ -1,0 +1,54 @@
+#supportPlansContainer{
+    width: 600px;
+}
+
+#supportPlans{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#supportPlansContainer  h3{
+    font-family: mon_bold;
+    color: gray;
+}
+
+.supportPlan{
+    border: 1px solid lightgray;
+    width: 270px !important;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    height: 50px;
+    margin: auto auto 10px;
+}
+
+.supportPlan:hover{
+    background-color: mediumturquoise;
+}
+
+.supportPlan:hover .text,
+.supportPlan:hover .readMoreLink{
+    color: white;
+}
+
+.supportPlanImage{
+    margin-right: 10px;
+}
+
+.supportPlanContent{
+    width: 250px;
+}
+
+.supportPlanContent .text{
+    text-transform: uppercase;
+    font-family: avro_reg;
+    color: gray;
+}
+
+.supportPlanContent .readMoreLink{
+    padding-top: 7px;
+    color: mediumturquoise;
+    text-decoration: underline;
+    text-transform: capitalize;
+    cursor: pointer;
+}

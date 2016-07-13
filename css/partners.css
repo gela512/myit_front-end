@@ -1,0 +1,25 @@
+#partnersContainer{
+    width: 100%;
+}
+
+#partnersContainer h3{
+    font-family: mon_bold;
+    color: gray;
+}
+
+#partners{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.partner{
+    min-width:150px;
+    height:70px;
+    margin: 0 15px;
+}
+
+.partner img{
+    width: 100%;
+}
