@@ -1,0 +1,151 @@
+#mainServicesBackground {
+    position: absolute;
+    top: 80px;
+    height: 500px;
+}
+
+#mainServicesBackground img {
+    height: 100%;
+    position: absolute;
+}
+
+#mainServicesBackgroundImage {
+    height: 100%;
+    position: absolute;
+    margin-left: 0;
+    z-index: 1;
+}
+
+#mainServicesBackgroundGradient {
+    margin-left: -600px;
+    z-index: 2;
+    width: 3000px;
+}
+
+#mainServices {
+    height: 500px;
+    position: relative;
+    z-index: 9999;
+    display: flex;
+    flex-direction: row;
+}
+
+.mainService {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.mainService:hover {
+}
+
+.mainService:hover .mainServiceContent {
+    flex-grow: 1;
+    transition: All 0.5s ease-out;
+    color: white;
+}
+
+.mainServiceLogo {
+    height: 50px;
+    width: 100%;
+}
+
+#cloudMail .mainServiceLogo {
+    background: url("../images/mainServices/cloudMail.png") no-repeat;
+}
+
+#cloudMail:hover .mainServiceLogo {
+    background: url("../images/mainServices/cloudMailBlue.png") no-repeat;
+}
+
+.mainServiceContent {
+    transition: All 0.2s ease-out;
+    padding: 10px 10px 10px 20px;
+}
+
+.mainService .mainServiceContent .mainServiceTitle {
+    font-family: mon_bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.mainService .mainServiceContent p {
+    width: 100%;
+    font-family: avro_reg;
+}
+
+.area {
+    flex-grow: 1;
+}
+
+#it:hover {
+    background: url("../images/mainServices.png") no-repeat 61.8% 75%;
+    background-size: auto 500px !important;
+}
+
+#cloudMail:hover {
+    background: url("../images/mainServices.png") no-repeat 30.8% 75%;
+    background-size: auto 500px !important;
+}
+
+#erp:hover {
+    background: url("../images/mainServices.png") no-repeat 0 75%;
+    background-size: auto 500px !important;
+}
+
+.mainService:hover .readMoreBtn{
+    height: auto;
+    visibility: visible;
+}
+
+.mainService .readMoreBtn{
+    visibility: hidden;
+    height: 0;
+}
+
+.readMoreBtn {
+    background-color: deepskyblue;
+    display: inline-block;
+    padding: 15px;
+    font-size: small;
+    font-family: avro_reg;
+    text-transform: uppercase;
+    color: white;
+}
+
+.readMoreBtn:hover{
+    cursor: pointer;
+}
+
+.test1 {
+    width: 100%;
+    height: 0;
+}
+
+.mainService:hover .test1 {
+    height: 110px;
+    width: 100%;
+    background-color: white;
+    transition: All 0.3s linear;
+}
+
+.mainService:hover .mainServiceContent {
+    margin-bottom: -80px;
+}
+
+.lineContainer {
+    display: inline-block;
+    width: 50px;
+    background-color: white;
+    height: 1px;
+    margin: 0 0 10px -20px;
+}
+
+.circle {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    display: inline-block;
+    margin: 0 0 5px -5px;
+}
