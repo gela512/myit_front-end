@@ -5,6 +5,7 @@
 @import "supportPlans.css";
 @import "partners.css";
 @import "contact.css";
+@import "footer.css";
 
 .clear{
     clear: both !important;
