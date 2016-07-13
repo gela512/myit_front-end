@@ -19,11 +19,17 @@ html,body{
     overflow-x: hidden;
 }
 
-header, main, footer{
-    width: 960px;
-    margin: 0 auto;
+#content, footer{
+    width: 100%;
+}
+#content {
+    padding: 1px 0;
+    background-color: #fafafa;
 }
 
+footer {
+    background-color: #eeeeee;
+}
 .container{
     width: 100%;
 }
@@ -32,4 +38,8 @@ header, main, footer{
     float: left;
 }
 
+.mainContainer, header {
+    width: 960px;
+    margin: 0 auto;
+}
 
