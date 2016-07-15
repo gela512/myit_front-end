@@ -23,6 +23,8 @@ header{
 #languageSelector{
     font-family: din_medium;
     text-transform: uppercase;
-    font-size: medium;
-    font-weight: bolder;
+    font-weight: 500;
+    padding: 5px;
+    font-size: smaller;
 }
+

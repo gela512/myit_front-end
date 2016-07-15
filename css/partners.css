@@ -23,3 +23,7 @@
 .partner img{
     width: 100%;
 }
+
+.magti:hover{
+    background: url("../images/partners/magti_red.png");
+}

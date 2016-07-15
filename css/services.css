@@ -13,6 +13,7 @@
     list-style: none;
     -webkit-padding-start: 0;
     color: gray;
+    margin-top: -20px;
 }
 
 #services ul li{
