@@ -6,6 +6,8 @@ footer{
 
 #copyrightContainer{
     float: left;
+    font-size: small;
+    color: gray;
 }
 
 #author{
@@ -18,4 +20,8 @@ footer{
 
 #footerLogo, #copyright{
     float: left;
+}
+
+#copyright{
+    margin-left: 20px;
 }

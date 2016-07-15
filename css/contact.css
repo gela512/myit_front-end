@@ -16,6 +16,7 @@
 
 #contactInfoContainer {
     float: left;
+    margin-top: 28px;
 }
 
 form label, form input, form textarea {
@@ -39,6 +40,10 @@ input, textarea {
     transition: box-shadow 0.3s, border 0.3s;
 }
 
+textarea{
+    height: 60px;
+}
+
 form label:last-child {
     margin-top: 10px;
 }
@@ -50,7 +55,13 @@ form label:last-child {
 #contactInfo, #onlineHelpContainer {
     border: 1px solid gainsboro;
     padding: 0 15px;
-    width: 460px;
+    width: 468px;
+}
+
+#contactInfo, #onlineHelpContainer{
+    font-size: smaller;
+    padding-bottom: 10px;
+    color: gray;
 }
 
 #onlineHelpContainer {
@@ -76,4 +87,6 @@ form label:last-child {
     color: mediumturquoise;
     text-decoration: underline;
     font-family: avro_reg;
+    font-size: smaller;
+    word-break: break-all;
 }

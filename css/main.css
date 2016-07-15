@@ -26,6 +26,7 @@ html,body{
 #content {
     padding: 1px 0;
     background-color: #fafafa;
+    padding-bottom: 40px !important;
 }
 
 footer {
@@ -44,3 +45,10 @@ footer {
     margin: 0 auto;
 }
 
+.mainContainer#middle{
+    margin-top: 20px;
+}
+
+textarea{
+    resize: none;
+}

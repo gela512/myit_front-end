@@ -39,6 +39,18 @@
     align-items: flex-end;
 }
 
+.mainService:nth-child(2){
+    border-right: 1px solid lightcyan;
+    border-left: 1px solid lightcyan;
+}
+
+.mainService:nth-child(1){
+    border-left: 1px solid lightcyan;
+}
+.mainService:nth-child(3){
+    border-right: 1px solid lightcyan;
+}
+
 .mainService:hover {
 }
 
@@ -49,7 +61,7 @@
 }
 
 .mainServiceLogo {
-    height: 50px;
+    height: 60px;
     width: 100%;
 }
 
@@ -59,6 +71,22 @@
 
 #cloudMail:hover .mainServiceLogo {
     background: url("../images/mainServices/cloudMailBlue.png") no-repeat;
+}
+
+#erp .mainServiceLogo {
+    background: url("../images/mainServices/erp.png") no-repeat;
+}
+
+#erp:hover .mainServiceLogo {
+    background: url("../images/mainServices/erp_blue.png") no-repeat;
+}
+
+#it .mainServiceLogo {
+    background: url("../images/mainServices/it.png") no-repeat;
+}
+
+#it:hover .mainServiceLogo {
+    background: url("../images/mainServices/it_blue.png") no-repeat;
 }
 
 .mainServiceContent {
@@ -75,6 +103,7 @@
 .mainService .mainServiceContent p {
     width: 100%;
     font-family: avro_reg;
+    font-size: small;
 }
 
 .area {
