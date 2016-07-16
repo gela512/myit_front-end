@@ -25,3 +25,8 @@ footer{
 #copyright{
     margin-left: 20px;
 }
+#createdBy{
+    font-size: small;
+    color: gray;
+    text-align: right;
+}
