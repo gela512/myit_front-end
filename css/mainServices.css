@@ -1,0 +1,188 @@
+#mainServicesBackground {
+    position: absolute;
+    top: 89px;
+    height: 500px;
+}
+
+#mainServicesBackground img {
+    height: 100%;
+    position: absolute;
+}
+
+#mainServicesBackgroundImage {
+    height: 100%;
+    position: absolute;
+    margin-left: 0;
+    z-index: 1;
+}
+
+#mainServicesBackgroundGradient {
+    margin-left: -600px;
+    z-index: 2;
+    width: 3000px;
+}
+
+#mainServices {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    z-index: 9999;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mainService {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    cursor: pointer;
+}
+
+.mainService:nth-child(2){
+    border-right: 1px solid lightcyan;
+    border-left: 1px solid lightcyan;
+}
+
+.mainService:nth-child(1){
+    border-left: 1px solid lightcyan;
+}
+.mainService:nth-child(3){
+    border-right: 1px solid lightcyan;
+}
+
+.mainService:hover {
+}
+
+.mainService:hover .mainServiceContent {
+    flex-grow: 1;
+    transition: All 0.5s ease-out;
+    color: white;
+}
+
+.mainServiceLogo {
+    height: 60px;
+    width: 100%;
+}
+
+#cloudMail .mainServiceLogo {
+    background: url("../images/mainServices/cloudmail.png") no-repeat;
+}
+
+#cloudMail:hover .mainServiceLogo {
+    background: url("../images/mainServices/cloudmail_blue.png") no-repeat;
+}
+
+#erp .mainServiceLogo {
+    background: url("../images/mainServices/erp.png") no-repeat;
+}
+
+#erp:hover .mainServiceLogo {
+    background: url("../images/mainServices/erp_blue.png") no-repeat;
+}
+
+#it .mainServiceLogo {
+    background: url("../images/mainServices/it.png") no-repeat;
+}
+
+#it:hover .mainServiceLogo {
+    background: url("../images/mainServices/it_blue.png") no-repeat;
+}
+
+.mainServiceContent {
+    transition: All 0.2s ease-out;
+    padding: 10px 10px 0 20px;
+}
+
+.mainService .mainServiceContent .mainServiceTitle {
+    font-family: mon_bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.mainService .mainServiceContent p {
+    width: 100%;
+    font-family: avro_reg;
+    font-size: small;
+}
+
+.area {
+    flex-grow: 1;
+}
+
+#it:hover {
+    background: url("../images/mainServicesHover.jpg") no-repeat 61.8% 75%;
+    background-size: auto 500px !important;
+}
+
+#cloudMail:hover {
+    background: url("../images/mainServicesHover.jpg") no-repeat 30.8% 75%;
+    background-size: auto 500px !important;
+}
+
+#erp:hover {
+    background: url("../images/mainServicesHover.jpg") no-repeat 0 75%;
+    background-size: auto 500px !important;
+}
+
+.mainService:hover .readMoreBtn{
+    height: auto;
+    visibility: visible;
+}
+
+.mainService .readMoreBtn{
+    visibility: hidden;
+    height: 0;
+}
+
+.readMoreBtn {
+    background-color: deepskyblue;
+    display: inline-block;
+    padding: 0;
+    font-size: small;
+    font-family: mon_bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.mainService:hover .readMoreBtn{
+    padding: 15px;
+}
+
+.readMoreBtn:hover{
+    cursor: pointer;
+}
+
+.test1 {
+    width: 100%;
+    height: 0;
+}
+
+.mainService:hover .test1 {
+    height: 110px;
+    width: 100%;
+    background-color: white;
+    transition: All 0.3s linear;
+}
+
+.mainService:hover .mainServiceContent {
+    margin-bottom: -80px;
+}
+
+.lineContainer {
+    display: inline-block;
+    width: 50px;
+    background-color: white;
+    height: 1px;
+    margin: 0 0 10px -20px;
+}
+
+.circle {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    display: inline-block;
+    margin: 0 0 5px -5px;
+}

@@ -1,0 +1,92 @@
+#contactContainer h3 {
+    font-family: mon_bold;
+    color: gray;
+    text-transform: uppercase;
+}
+
+#contact {
+    width: 100%;
+}
+
+#contactForm {
+    float: left;
+    width: 460px;
+    font-family: avro_reg
+}
+
+#contactInfoContainer {
+    float: left;
+    margin-top: 28px;
+}
+
+form label, form input, form textarea {
+    display: block;
+    width: 90%;
+}
+
+form label input, form label textarea {
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+form label span {
+    font-size: small;
+}
+
+input, textarea {
+    border-radius: 5px;
+    padding: 10px;
+    border: solid 1px gainsboro;
+    transition: box-shadow 0.3s, border 0.3s;
+}
+
+textarea{
+    height: 60px;
+}
+
+form label:last-child {
+    margin-top: 10px;
+}
+
+#helpText{
+    width: 330px;
+}
+
+#contactInfo, #onlineHelpContainer {
+    border: 1px solid gainsboro;
+    padding: 0 15px;
+    width: 468px;
+}
+
+#contactInfo, #onlineHelpContainer{
+    font-size: smaller;
+    padding-bottom: 10px;
+    color: gray;
+}
+
+#onlineHelpContainer {
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+#helpLogo, #helpText{
+    float: left;
+}
+
+#helpText{
+    margin-left: 10px;
+    font-family: avro_reg;
+}
+
+#helpText p{
+    width: 300px;
+    -webkit-margin-before: 0;
+}
+
+#helpText span{
+    color: mediumturquoise;
+    text-decoration: underline;
+    font-family: avro_reg;
+    font-size: smaller;
+    word-break: break-all;
+}
