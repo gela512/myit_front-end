@@ -54,12 +54,13 @@
 }
 
 .supportPlanContent .readMoreLink{
-    padding-top: 7px;
+    padding-top: 12px;
     color: mediumturquoise;
     text-decoration: underline;
     text-transform: capitalize;
     cursor: pointer;
     font-family: avro_reg;
+    font-size: smaller;
 }
 
 #building {
