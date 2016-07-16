@@ -26,6 +26,7 @@
     float: left;
     background-position: center;
     background-size: contain;
+    cursor: pointer;
 }
 
 /*.partner img{*/

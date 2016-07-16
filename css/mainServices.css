@@ -66,11 +66,11 @@
 }
 
 #cloudMail .mainServiceLogo {
-    background: url("../images/mainServices/cloudMail.png") no-repeat;
+    background: url("../images/mainServices/cloudmail.png") no-repeat;
 }
 
 #cloudMail:hover .mainServiceLogo {
-    background: url("../images/mainServices/cloudMailBlue.png") no-repeat;
+    background: url("../images/mainServices/cloudmail_blue.png") no-repeat;
 }
 
 #erp .mainServiceLogo {
