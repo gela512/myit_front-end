@@ -90,3 +90,7 @@ form label:last-child {
     font-size: smaller;
     word-break: break-all;
 }
+
+#contactForm .readMoreBtn{
+    padding: 15px;
+}
