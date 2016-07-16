@@ -1,28 +1,28 @@
-header{
+header {
     height: 80px;
 }
 
-#mainLogo{
+#mainLogo {
     height: 80%;
     float: left;
     margin-top: 25px;
     cursor: pointer;
 }
 
-#topMenu{
+#topMenu {
     float: right;
     margin-top: 15px;
     font-family: mon_bold;
 }
 
-#topMenu > ul > li{
+#topMenu > ul > li {
     display: inline-block;
     margin-left: 25px;
     color: gray;
     cursor: pointer;
 }
 
-#languageSelector{
+#languageSelector {
     font-family: din_medium;
     text-transform: uppercase;
     font-weight: 500;

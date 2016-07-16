@@ -40,7 +40,7 @@ input, textarea {
     transition: box-shadow 0.3s, border 0.3s;
 }
 
-textarea{
+textarea {
     height: 60px;
 }
 
@@ -48,7 +48,7 @@ form label:last-child {
     margin-top: 10px;
 }
 
-#helpText{
+#helpText {
     width: 330px;
 }
 
@@ -58,7 +58,7 @@ form label:last-child {
     width: 468px;
 }
 
-#contactInfo, #onlineHelpContainer{
+#contactInfo, #onlineHelpContainer {
     font-size: smaller;
     padding-bottom: 10px;
     color: gray;
@@ -69,21 +69,21 @@ form label:last-child {
     padding-bottom: 10px;
 }
 
-#helpLogo, #helpText{
+#helpLogo, #helpText {
     float: left;
 }
 
-#helpText{
+#helpText {
     margin-left: 10px;
     font-family: avro_reg;
 }
 
-#helpText p{
+#helpText p {
     width: 300px;
     -webkit-margin-before: 0;
 }
 
-#helpText span{
+#helpText span {
     color: mediumturquoise;
     text-decoration: underline;
     font-family: avro_reg;

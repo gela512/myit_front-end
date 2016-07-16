@@ -1,27 +1,27 @@
-#partnersContainer{
+#partnersContainer {
     width: 100%;
 }
 
-#partnersContainer h3{
+#partnersContainer h3 {
     font-family: mon_bold;
     color: gray;
 }
 
-#partners{
+#partners {
     /*display: flex;*/
     /*flex-direction: row;*/
     /*justify-content: center;*/
     /*flex-wrap: wrap;*/
 }
 
-#partners div:nth-child(2){
+#partners div:nth-child(2) {
     display: flex;
     justify-content: center;
 }
 
-.partner{
-    width:190px;
-    height:90px;
+.partner {
+    width: 190px;
+    height: 90px;
     margin: 0;
     float: left;
     background-position: center;
@@ -30,55 +30,61 @@
 }
 
 /*.partner img{*/
-    /*width: 100%;*/
+/*width: 100%;*/
 /*}*/
 
-#orientlogic{
+#orientlogic {
     background: url("../images/partners/orientlogic.png") no-repeat;
 }
 
-#orientlogic:hover{
+#orientlogic:hover {
     background: url("../images/partners/orientlogic_red.png") no-repeat;
 }
-#caucasus{
+
+#caucasus {
     background: url("../images/partners/caucasus.png") no-repeat;
 }
 
-#caucasus:hover{
+#caucasus:hover {
     background: url("../images/partners/caucasus_red.png") no-repeat;
 }
-#magti{
+
+#magti {
     background: url("../images/partners/magti.png") no-repeat;
 }
 
-#magti:hover{
+#magti:hover {
     background: url("../images/partners/magti_red.png") no-repeat;
 }
-#baracuda{
+
+#baracuda {
     background: url("../images/partners/baracuda.png") no-repeat;
 }
 
-#baracuda:hover{
+#baracuda:hover {
     background: url("../images/partners/baracuda_red.png") no-repeat;
 }
-#qnap{
+
+#qnap {
     background: url("../images/partners/qnap.png") no-repeat;
 }
 
-#qnap:hover{
+#qnap:hover {
     background: url("../images/partners/qnap_red.png") no-repeat;
 }
-#mikrotik{
+
+#mikrotik {
     background: url("../images/partners/mikrotik.png") no-repeat;
 }
 
-#mikrotik:hover{
+#mikrotik:hover {
     background: url("../images/partners/mikrotik_red.png") no-repeat;
 }
-#spam{
+
+#spam {
     background: url("../images/partners/spam.png") no-repeat;
 }
 
-#spam:hover{
+#spam:hover {
     background: url("../images/partners/spam_red.png") no-repeat;
 }

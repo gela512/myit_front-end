@@ -1,31 +1,32 @@
-footer{
+footer {
     background-color: whitesmoke;
     padding: 20px 0 15px 0;
     font-family: avro_reg;
 }
 
-#copyrightContainer{
+#copyrightContainer {
     float: left;
     font-size: small;
     color: gray;
 }
 
-#author{
+#author {
     float: right;
 }
 
-#author a{
+#author a {
     color: mediumturquoise;
 }
 
-#footerLogo, #copyright{
+#footerLogo, #copyright {
     float: left;
 }
 
-#copyright{
+#copyright {
     margin-left: 20px;
 }
-#createdBy{
+
+#createdBy {
     font-size: small;
     color: gray;
     text-align: right;

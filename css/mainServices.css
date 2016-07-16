@@ -40,15 +40,16 @@
     cursor: pointer;
 }
 
-.mainService:nth-child(2){
+.mainService:nth-child(2) {
     border-right: 1px solid lightcyan;
     border-left: 1px solid lightcyan;
 }
 
-.mainService:nth-child(1){
+.mainService:nth-child(1) {
     border-left: 1px solid lightcyan;
 }
-.mainService:nth-child(3){
+
+.mainService:nth-child(3) {
     border-right: 1px solid lightcyan;
 }
 
@@ -126,12 +127,12 @@
     background-size: auto 500px !important;
 }
 
-.mainService:hover .readMoreBtn{
+.mainService:hover .readMoreBtn {
     height: auto;
     visibility: visible;
 }
 
-.mainService .readMoreBtn{
+.mainService .readMoreBtn {
     visibility: hidden;
     height: 0;
 }
@@ -146,11 +147,11 @@
     color: white;
 }
 
-.mainService:hover .readMoreBtn{
+.mainService:hover .readMoreBtn {
     padding: 15px;
 }
 
-.readMoreBtn:hover{
+.readMoreBtn:hover {
     cursor: pointer;
 }
 

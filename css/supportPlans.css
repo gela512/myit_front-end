@@ -1,18 +1,18 @@
-#supportPlansContainer{
+#supportPlansContainer {
     width: 600px;
 }
 
-#supportPlans{
+#supportPlans {
     display: flex;
     flex-wrap: wrap;
 }
 
-#supportPlansContainer  h3{
+#supportPlansContainer h3 {
     font-family: mon_bold;
     color: gray;
 }
 
-.supportPlan{
+.supportPlan {
     border: 1px solid lightgray;
     width: 270px !important;
     display: flex;
@@ -22,20 +22,20 @@
     margin-bottom: 20px;
 }
 
-.supportPlan:nth-child(odd){
+.supportPlan:nth-child(odd) {
     margin-right: 16px;
 }
 
-.supportPlan:hover{
+.supportPlan:hover {
     background-color: mediumturquoise;
 }
 
 .supportPlan:hover .text,
-.supportPlan:hover .readMoreLink{
+.supportPlan:hover .readMoreLink {
     color: white;
 }
 
-.supportPlanImage{
+.supportPlanImage {
     margin-right: 10px;
     width: 60px;
     height: 48px;
@@ -43,17 +43,17 @@
     background-position: center;
 }
 
-.supportPlanContent{
+.supportPlanContent {
     width: 250px;
 }
 
-.supportPlanContent .text{
+.supportPlanContent .text {
     text-transform: uppercase;
     font-family: avro_reg;
     color: gray;
 }
 
-.supportPlanContent .readMoreLink{
+.supportPlanContent .readMoreLink {
     padding-top: 12px;
     color: mediumturquoise;
     text-decoration: underline;
@@ -66,12 +66,15 @@
 #building {
     background: url("../images/supportPlans/building.png") no-repeat;
 }
+
 .supportPlan:hover #building {
     background: url("../images/supportPlans/building_white.png") no-repeat;
 }
+
 #people {
     background: url("../images/supportPlans/people.png") no-repeat;
 }
+
 .supportPlan:hover #people {
     background: url("../images/supportPlans/people_white.png") no-repeat;
 }
@@ -79,24 +82,31 @@
 #supportIt {
     background: url("../images/supportPlans/it.png") no-repeat;
 }
+
 .supportPlan:hover #supportIt {
     background: url("../images/supportPlans/it_white.png") no-repeat;
 }
+
 #supportIt2 {
     background: url("../images/supportPlans/it.png") no-repeat;
 }
+
 .supportPlan:hover #supportIt2 {
     background: url("../images/supportPlans/it_white.png") no-repeat;
 }
+
 #darts {
     background: url("../images/supportPlans/darts.png") no-repeat;
 }
+
 .supportPlan:hover #darts {
     background: url("../images/supportPlans/darts_white.png") no-repeat;
 }
+
 #darts2 {
     background: url("../images/supportPlans/darts.png") no-repeat;
 }
+
 .supportPlan:hover #darts2 {
     background: url("../images/supportPlans/darts_white.png") no-repeat;
 }

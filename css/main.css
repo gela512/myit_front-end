@@ -7,12 +7,12 @@
 @import "contact.css";
 @import "footer.css";
 
-.clear{
+.clear {
     clear: both !important;
     float: none !important;
 }
 
-html,body{
+html, body {
     width: 100%;
     margin: 0;
     padding: 0;
@@ -20,9 +20,10 @@ html,body{
     font-family: avro_reg;
 }
 
-#content, footer{
+#content, footer {
     width: 100%;
 }
+
 #content {
     padding: 1px 0;
     background-color: #fafafa;
@@ -32,11 +33,12 @@ html,body{
 footer {
     background-color: #eeeeee;
 }
-.container{
+
+.container {
     width: 100%;
 }
 
-.container>div{
+.container > div {
     float: left;
 }
 
@@ -45,10 +47,10 @@ footer {
     margin: 0 auto;
 }
 
-.mainContainer#middle{
+.mainContainer#middle {
     margin-top: 20px;
 }
 
-textarea{
+textarea {
     resize: none;
 }
