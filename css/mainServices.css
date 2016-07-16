@@ -139,11 +139,15 @@
 .readMoreBtn {
     background-color: deepskyblue;
     display: inline-block;
-    padding: 15px;
+    padding: 0;
     font-size: small;
     font-family: mon_bold;
     text-transform: uppercase;
     color: white;
+}
+
+.mainService:hover .readMoreBtn{
+    padding: 15px;
 }
 
 .readMoreBtn:hover{
