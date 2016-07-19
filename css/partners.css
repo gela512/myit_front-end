@@ -88,3 +88,7 @@
 #spam:hover {
     background: url("../images/partners/spam_red.png") no-repeat;
 }
+
+.partner a{
+    display: block;
+}

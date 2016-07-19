@@ -39,6 +39,6 @@ header {
 }
 
 .menuItem:hover:not(:last-child){
-    background-color: mediumturquoise;
-    color: white;
+    /*background-color: mediumturquoise;*/
+    color: mediumturquoise;
 }
