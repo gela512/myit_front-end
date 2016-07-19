@@ -29,6 +29,7 @@
 
 .supportPlan:hover {
     background-color: mediumturquoise;
+    border: 1px solid mediumaquamarine;
 }
 
 .supportPlan:hover .text,
