@@ -83,7 +83,7 @@ form label:last-child {
     -webkit-margin-before: 0;
 }
 
-#helpText span {
+#helpText a {
     color: mediumturquoise;
     text-decoration: underline;
     font-family: avro_reg;
@@ -93,4 +93,5 @@ form label:last-child {
 
 #contactForm .readMoreBtn{
     padding: 15px;
+    background-color: mediumturquoise;
 }

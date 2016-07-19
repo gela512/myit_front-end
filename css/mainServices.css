@@ -41,16 +41,16 @@
 }
 
 .mainService:nth-child(2) {
-    border-right: 1px solid lightcyan;
-    border-left: 1px solid lightcyan;
+    border-right: 1px solid rgba(224,255,255,0.3);
+    border-left: 1px solid rgba(224,255,255,0.3);
 }
 
 .mainService:nth-child(1) {
-    border-left: 1px solid lightcyan;
+    border-left: 1px solid rgba(224,255,255,0.3);
 }
 
 .mainService:nth-child(3) {
-    border-right: 1px solid lightcyan;
+    border-right: 1px solid rgba(224,255,255,0.3);
 }
 
 .mainService:hover {
@@ -174,16 +174,16 @@
 .lineContainer {
     display: inline-block;
     width: 50px;
-    background-color: white;
+    background-color: rgba(255,255,255, 0.3);
     height: 1px;
     margin: 0 0 10px -20px;
 }
 
 .circle {
-    border: 1px solid white;
+    border: 2px solid rgba(255,255,255, 0.3);
     border-radius: 50%;
-    width: 7px;
-    height: 7px;
+    width: 8px;
+    height: 8px;
     display: inline-block;
     margin: 0 0 5px -5px;
 }

@@ -15,7 +15,7 @@ header {
     font-family: mon_bold;
 }
 
-#topMenu > ul > li {
+.menuItem {
     display: inline-block;
     color: gray;
     cursor: pointer;
@@ -35,4 +35,5 @@ header {
 
 .menuItem:hover{
     background-color: mediumturquoise;
+    color: white;
 }

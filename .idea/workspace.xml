@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d9641d4-f859-434e-a9a3-569e815bccf1" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/partners/maindesign1_0000s_0021_Bitmap_red.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/partners/baracuda_red.png" afterPath="$PROJECT_DIR$/images/partners/baracuda_red.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/partners/caucasus_red.png" afterPath="$PROJECT_DIR$/images/partners/caucasus_red.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/partners/magti_red.png" afterPath="$PROJECT_DIR$/images/partners/magti_red.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/partners/mikrotik_red.png" afterPath="$PROJECT_DIR$/images/partners/mikrotik_red.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/partners/orientlogic_red.png" afterPath="$PROJECT_DIR$/images/partners/orientlogic_red.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/partners/qnap_red.png" afterPath="$PROJECT_DIR$/images/partners/qnap_red.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/partners/spam_red.png" afterPath="$PROJECT_DIR$/images/partners/spam_red.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/contact.css" afterPath="$PROJECT_DIR$/css/contact.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/header.css" afterPath="$PROJECT_DIR$/css/header.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/supportPlans.css" afterPath="$PROJECT_DIR$/css/supportPlans.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mainServices.css" afterPath="$PROJECT_DIR$/css/mainServices.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/services.css" afterPath="$PROJECT_DIR$/css/services.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="test.iws" />
@@ -27,11 +37,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="contact.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/contact.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="95" column="38" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="195" column="64" selection-start-line="195" selection-start-column="64" selection-end-line="195" selection-end-column="64" />
+            <state relative-caret-position="374">
+              <caret line="335" column="0" selection-start-line="335" selection-start-column="0" selection-end-line="335" selection-end-column="0" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -42,18 +62,74 @@
       <file leaf-file-name="header.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/header.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+            <state relative-caret-position="153">
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="supportPlans.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mainServices.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/mainServices.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-272">
+              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+              <folding>
+                <element signature="e#24#85#0" expanded="false" />
+                <element signature="e#115#160#0" expanded="false" />
+                <element signature="e#191#272#0" expanded="false" />
+                <element signature="e#306#369#0" expanded="false" />
+                <element signature="e#385#540#0" expanded="false" />
+                <element signature="e#555#671#0" expanded="false" />
+                <element signature="e#699#803#0" expanded="false" />
+                <element signature="e#831#884#0" expanded="false" />
+                <element signature="e#912#966#0" expanded="false" />
+                <element signature="e#987#990#0" expanded="false" />
+                <element signature="e#1031#1105#0" expanded="false" />
+                <element signature="e#1124#1162#0" expanded="false" />
+                <element signature="e#1192#1266#0" expanded="false" />
+                <element signature="e#1302#1381#0" expanded="false" />
+                <element signature="e#1405#1473#0" expanded="false" />
+                <element signature="e#1503#1576#0" expanded="false" />
+                <element signature="e#1599#1666#0" expanded="false" />
+                <element signature="e#1695#1767#0" expanded="false" />
+                <element signature="e#1789#1858#0" expanded="false" />
+                <element signature="e#1911#1990#0" expanded="false" />
+                <element signature="e#2027#2096#0" expanded="false" />
+                <element signature="e#2104#2125#0" expanded="false" />
+                <element signature="e#2137#2260#0" expanded="false" />
+                <element signature="e#2279#2402#0" expanded="false" />
+                <element signature="e#2415#2534#0" expanded="false" />
+                <element signature="e#2568#2614#0" expanded="false" />
+                <element signature="e#2642#2684#0" expanded="false" />
+                <element signature="e#2699#2878#0" expanded="false" />
+                <element signature="e#2912#2934#0" expanded="false" />
+                <element signature="e#2955#2979#0" expanded="false" />
+                <element signature="e#2988#3023#0" expanded="false" />
+                <element signature="e#3051#3152#0" expanded="false" />
+                <element signature="e#3193#3222#0" expanded="false" />
+                <element signature="e#3239#3377#0" expanded="false" />
+                <element signature="e#3387#3546#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/services.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="supportPlans.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/supportPlans.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+            <state relative-caret-position="273">
+              <caret line="30" column="37" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -75,13 +151,13 @@
         <option value="$PROJECT_DIR$/deploy.cmd" />
         <option value="$PROJECT_DIR$/css/footer.css" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/css/mainServices.css" />
         <option value="$PROJECT_DIR$/css/partners.css" />
-        <option value="$PROJECT_DIR$/css/services.css" />
-        <option value="$PROJECT_DIR$/css/contact.css" />
-        <option value="$PROJECT_DIR$/css/header.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/supportPlans.css" />
+        <option value="$PROJECT_DIR$/css/mainServices.css" />
+        <option value="$PROJECT_DIR$/css/services.css" />
+        <option value="$PROJECT_DIR$/css/header.css" />
+        <option value="$PROJECT_DIR$/css/contact.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -180,6 +256,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -234,12 +312,20 @@
       <workItem from="1468557697418" duration="2561000" />
       <workItem from="1468661027332" duration="306000" />
       <workItem from="1468661396300" duration="246000" />
-      <workItem from="1468944723463" duration="1325000" />
+      <workItem from="1468944723463" duration="3021000" />
     </task>
+    <task id="LOCAL-00001" summary="fix support plans &amp; menu">
+      <created>1468946078865</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1468946078865</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4438000" />
+    <option name="totallyTimeSpent" value="6134000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -274,6 +360,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix support plans &amp; menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix support plans &amp; menu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -392,14 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/mainServices.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/partners.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -410,43 +492,87 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/services.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="239">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/mainServices.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-272">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding>
+            <element signature="e#24#85#0" expanded="false" />
+            <element signature="e#115#160#0" expanded="false" />
+            <element signature="e#191#272#0" expanded="false" />
+            <element signature="e#306#369#0" expanded="false" />
+            <element signature="e#385#540#0" expanded="false" />
+            <element signature="e#555#671#0" expanded="false" />
+            <element signature="e#699#803#0" expanded="false" />
+            <element signature="e#831#884#0" expanded="false" />
+            <element signature="e#912#966#0" expanded="false" />
+            <element signature="e#987#990#0" expanded="false" />
+            <element signature="e#1031#1105#0" expanded="false" />
+            <element signature="e#1124#1162#0" expanded="false" />
+            <element signature="e#1192#1266#0" expanded="false" />
+            <element signature="e#1302#1381#0" expanded="false" />
+            <element signature="e#1405#1473#0" expanded="false" />
+            <element signature="e#1503#1576#0" expanded="false" />
+            <element signature="e#1599#1666#0" expanded="false" />
+            <element signature="e#1695#1767#0" expanded="false" />
+            <element signature="e#1789#1858#0" expanded="false" />
+            <element signature="e#1911#1990#0" expanded="false" />
+            <element signature="e#2027#2096#0" expanded="false" />
+            <element signature="e#2104#2125#0" expanded="false" />
+            <element signature="e#2137#2260#0" expanded="false" />
+            <element signature="e#2279#2402#0" expanded="false" />
+            <element signature="e#2415#2534#0" expanded="false" />
+            <element signature="e#2568#2614#0" expanded="false" />
+            <element signature="e#2642#2684#0" expanded="false" />
+            <element signature="e#2699#2878#0" expanded="false" />
+            <element signature="e#2912#2934#0" expanded="false" />
+            <element signature="e#2955#2979#0" expanded="false" />
+            <element signature="e#2988#3023#0" expanded="false" />
+            <element signature="e#3051#3152#0" expanded="false" />
+            <element signature="e#3193#3222#0" expanded="false" />
+            <element signature="e#3239#3377#0" expanded="false" />
+            <element signature="e#3387#3546#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/supportPlans.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/contact.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="76" column="22" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
+        <state relative-caret-position="358">
+          <caret line="95" column="38" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="195" column="64" selection-start-line="195" selection-start-column="64" selection-end-line="195" selection-end-column="64" />
+        <state relative-caret-position="374">
+          <caret line="335" column="0" selection-start-line="335" selection-start-column="0" selection-end-line="335" selection-end-column="0" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/supportPlans.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
