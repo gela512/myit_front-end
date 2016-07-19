@@ -25,6 +25,10 @@ footer {
 #copyright {
     margin-left: 20px;
 }
+#copyright div:first-child{
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
 
 #createdBy {
     font-size: small;
