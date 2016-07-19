@@ -11,13 +11,12 @@ header {
 
 #topMenu {
     float: right;
-    margin-top: 15px;
+    margin-top: 5px;
     font-family: mon_bold;
 }
 
 #topMenu > ul > li {
     display: inline-block;
-    margin-left: 25px;
     color: gray;
     cursor: pointer;
 }
@@ -30,3 +29,10 @@ header {
     font-size: smaller;
 }
 
+.menuItem{
+    padding: 10px;
+}
+
+.menuItem:hover{
+    background-color: mediumturquoise;
+}

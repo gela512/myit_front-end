@@ -20,6 +20,7 @@
     padding: 10px;
     height: 50px;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .supportPlan:nth-child(odd) {
@@ -87,10 +88,6 @@
     background: url("../images/supportPlans/it_white.png") no-repeat;
 }
 
-#supportIt2 {
-    background: url("../images/supportPlans/it.png") no-repeat;
-}
-
 .supportPlan:hover #supportIt2 {
     background: url("../images/supportPlans/it_white.png") no-repeat;
 }
@@ -99,14 +96,26 @@
     background: url("../images/supportPlans/darts.png") no-repeat;
 }
 
+#cables{
+    background: url("../images/supportPlans/cables.png") no-repeat;
+}
+
 .supportPlan:hover #darts {
     background: url("../images/supportPlans/darts_white.png") no-repeat;
 }
 
-#darts2 {
-    background: url("../images/supportPlans/darts.png") no-repeat;
+#projects{
+    background: url("../images/supportPlans/project.png") no-repeat;
 }
 
 .supportPlan:hover #darts2 {
     background: url("../images/supportPlans/darts_white.png") no-repeat;
+}
+
+.supportPlan:hover #projects {
+    background: url("../images/supportPlans/project_white.png") no-repeat;
+}
+
+.supportPlan:hover #cables {
+    background: url("../images/supportPlans/cables_white.png") no-repeat;
 }
