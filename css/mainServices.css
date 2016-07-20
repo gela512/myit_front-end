@@ -55,7 +55,7 @@
 }
 
 .mainService:hover {
-    transition: All 5s ease-out;
+    /*transition: All 5s ease-out;*/
 }
 
 .mainService:hover .mainServiceContent {
