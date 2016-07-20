@@ -14,12 +14,12 @@
 }
 
 @font-face {
-    src: url(../fonts/Arvo-regular.ttf);
+    src: url(../fonts/Arvo-Regular.ttf);
     font-family: avro_reg;
 }
 
 @font-face {
-    src: url(../fonts/Arvo-regular.ttf);
+    src: url(../fonts/Arvo-Italic.ttf);
     font-family: avro_it;
 }
 
