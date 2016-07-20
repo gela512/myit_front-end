@@ -70,7 +70,7 @@
 }
 
 #cloudMail .mainServiceLogo {
-    background: url("../images/mainServices/cloudmail.png") no-repeat;
+    background: url("../images/mainServices/cloudMail.png") no-repeat;
 }
 
 #cloudMail:hover .mainServiceLogo {

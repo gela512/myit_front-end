@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d9641d4-f859-434e-a9a3-569e815bccf1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fonts.css" afterPath="$PROJECT_DIR$/css/fonts.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mainServices.css" afterPath="$PROJECT_DIR$/css/mainServices.css" />
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -116,11 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainServices.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mainServices.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/mainServices.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+            <state relative-caret-position="226">
+              <caret line="73" column="1" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
               <folding>
                 <element signature="e#24#85#0" expanded="false" />
                 <element signature="e#115#160#0" expanded="false" />
@@ -134,8 +135,6 @@
                 <element signature="e#1009#1049#0" expanded="false" />
                 <element signature="e#1090#1164#0" expanded="false" />
                 <element signature="e#1183#1221#0" expanded="false" />
-                <element signature="e#1251#1325#0" expanded="false" />
-                <element signature="e#1361#1440#0" expanded="false" />
                 <element signature="e#1464#1532#0" expanded="false" />
                 <element signature="e#1562#1635#0" expanded="false" />
                 <element signature="e#1658#1725#0" expanded="false" />
@@ -162,11 +161,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fonts.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fonts.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/fonts.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="272">
+              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -194,8 +193,8 @@
         <option value="$PROJECT_DIR$/css/partners.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/supportPlans.css" />
-        <option value="$PROJECT_DIR$/css/mainServices.css" />
         <option value="$PROJECT_DIR$/css/fonts.css" />
+        <option value="$PROJECT_DIR$/css/mainServices.css" />
       </list>
     </option>
   </component>
@@ -255,6 +254,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mainServices" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -372,7 +403,7 @@
       <workItem from="1468994972011" duration="44000" />
       <workItem from="1468995121877" duration="229000" />
       <workItem from="1468995562854" duration="674000" />
-      <workItem from="1469024276310" duration="78000" />
+      <workItem from="1469024276310" duration="176000" />
     </task>
     <task id="LOCAL-00001" summary="fix support plans &amp; menu">
       <created>1468946078865</created>
@@ -406,10 +437,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9068000" />
+    <option name="totallyTimeSpent" value="9166000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1705757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -471,8 +502,6 @@
             <element signature="e#1009#1049#0" expanded="false" />
             <element signature="e#1090#1164#0" expanded="false" />
             <element signature="e#1183#1221#0" expanded="false" />
-            <element signature="e#1251#1325#0" expanded="false" />
-            <element signature="e#1361#1440#0" expanded="false" />
             <element signature="e#1464#1532#0" expanded="false" />
             <element signature="e#1562#1635#0" expanded="false" />
             <element signature="e#1658#1725#0" expanded="false" />
@@ -614,8 +643,6 @@
             <element signature="e#1009#1049#0" expanded="false" />
             <element signature="e#1090#1164#0" expanded="false" />
             <element signature="e#1183#1221#0" expanded="false" />
-            <element signature="e#1251#1325#0" expanded="false" />
-            <element signature="e#1361#1440#0" expanded="false" />
             <element signature="e#1464#1532#0" expanded="false" />
             <element signature="e#1562#1635#0" expanded="false" />
             <element signature="e#1658#1725#0" expanded="false" />
@@ -798,8 +825,6 @@
             <element signature="e#1009#1049#0" expanded="false" />
             <element signature="e#1090#1164#0" expanded="false" />
             <element signature="e#1183#1221#0" expanded="false" />
-            <element signature="e#1251#1325#0" expanded="false" />
-            <element signature="e#1361#1440#0" expanded="false" />
             <element signature="e#1464#1532#0" expanded="false" />
             <element signature="e#1562#1635#0" expanded="false" />
             <element signature="e#1658#1725#0" expanded="false" />
@@ -1028,8 +1053,6 @@
             <element signature="e#1009#1049#0" expanded="false" />
             <element signature="e#1090#1164#0" expanded="false" />
             <element signature="e#1183#1221#0" expanded="false" />
-            <element signature="e#1251#1325#0" expanded="false" />
-            <element signature="e#1361#1440#0" expanded="false" />
             <element signature="e#1464#1532#0" expanded="false" />
             <element signature="e#1562#1635#0" expanded="false" />
             <element signature="e#1658#1725#0" expanded="false" />
@@ -1212,8 +1235,6 @@
             <element signature="e#1009#1049#0" expanded="false" />
             <element signature="e#1090#1164#0" expanded="false" />
             <element signature="e#1183#1221#0" expanded="false" />
-            <element signature="e#1251#1325#0" expanded="false" />
-            <element signature="e#1361#1440#0" expanded="false" />
             <element signature="e#1464#1532#0" expanded="false" />
             <element signature="e#1562#1635#0" expanded="false" />
             <element signature="e#1658#1725#0" expanded="false" />
@@ -1394,10 +1415,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/fonts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/mainServices.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+        <state relative-caret-position="226">
+          <caret line="73" column="1" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
           <folding>
             <element signature="e#24#85#0" expanded="false" />
             <element signature="e#115#160#0" expanded="false" />
@@ -1411,8 +1440,6 @@
             <element signature="e#1009#1049#0" expanded="false" />
             <element signature="e#1090#1164#0" expanded="false" />
             <element signature="e#1183#1221#0" expanded="false" />
-            <element signature="e#1251#1325#0" expanded="false" />
-            <element signature="e#1361#1440#0" expanded="false" />
             <element signature="e#1464#1532#0" expanded="false" />
             <element signature="e#1562#1635#0" expanded="false" />
             <element signature="e#1658#1725#0" expanded="false" />
@@ -1435,14 +1462,6 @@
             <element signature="e#3298#3436#0" expanded="false" />
             <element signature="e#3446#3605#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/fonts.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
