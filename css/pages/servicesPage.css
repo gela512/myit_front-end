@@ -52,3 +52,17 @@
 #areaForStickyFooter{
     height: calc(100vh - 760px); min-height: 10px;
 }
+
+
+#services .servicesPage li {
+    color: #949090;
+}
+
+#services .servicesPage h3 {
+    color: #949090;
+    padding-bottom: 8px;
+}
+
+.mainContainer #middle {
+    margin-top: 10px;
+}
