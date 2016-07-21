@@ -1,4 +1,6 @@
 
+@import "../main.css";
+
 #services.servicesPage{
     border: 1px solid rgba(0,0,0, 0.2);
     padding-left: 15px;
@@ -43,6 +45,10 @@
     padding-top: 30px;
 }
 
-#mainServices div:nth-child(odd)>div:hover{
-    background-position: bottom !important;
+#mainServicesBackground img:nth-child(2){
+    margin-left: -300px;
+}
+
+#areaForStickyFooter{
+    height: calc(100vh - 760px); min-height: 10px;
 }

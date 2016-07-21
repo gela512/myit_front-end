@@ -114,21 +114,6 @@
     flex-grow: 1;
 }
 
-/*#it:hover {*/
-    /*background: url("../images/mainServicesHover.jpg") no-repeat 61.8% 75%;*/
-    /*background-size: auto 500px !important;*/
-/*}*/
-
-/*#cloudMail:hover {*/
-    /*background: url("../images/mainServicesHover.jpg") no-repeat 30.8% 75%;*/
-    /*background-size: auto 500px !important;*/
-/*}*/
-
-/*#erp:hover {*/
-    /*background: url("../images/mainServicesHover.jpg") no-repeat 0 75%;*/
-    /*background-size: auto 500px !important;*/
-/*}*/
-
 .mainService:hover .readMoreBtn {
     height: auto;
     visibility: visible;
