@@ -41,17 +41,17 @@
     overflow: hidden;
 }
 
-.mainService:nth-child(2) {
+.mainService#cloudMail {
     border-right: 1px solid rgba(224,255,255,0.3);
     border-left: 1px solid rgba(224,255,255,0.3);
 }
 
-.mainService:nth-child(1) {
+.mainService#erp {
     border-left: 1px solid rgba(224,255,255,0.3);
 }
 
-.mainService:nth-child(3) {
-    border-right: 1px solid rgba(224,255,255,0.3);
+.mainService#it {
+    border-right: 1px solid rgba(224,255,255,0.3) ;
 }
 
 .mainService:hover {
@@ -114,20 +114,20 @@
     flex-grow: 1;
 }
 
-#it:hover {
-    background: url("../images/mainServicesHover.jpg") no-repeat 61.8% 75%;
-    background-size: auto 500px !important;
-}
+/*#it:hover {*/
+    /*background: url("../images/mainServicesHover.jpg") no-repeat 61.8% 75%;*/
+    /*background-size: auto 500px !important;*/
+/*}*/
 
-#cloudMail:hover {
-    background: url("../images/mainServicesHover.jpg") no-repeat 30.8% 75%;
-    background-size: auto 500px !important;
-}
+/*#cloudMail:hover {*/
+    /*background: url("../images/mainServicesHover.jpg") no-repeat 30.8% 75%;*/
+    /*background-size: auto 500px !important;*/
+/*}*/
 
-#erp:hover {
-    background: url("../images/mainServicesHover.jpg") no-repeat 0 75%;
-    background-size: auto 500px !important;
-}
+/*#erp:hover {*/
+    /*background: url("../images/mainServicesHover.jpg") no-repeat 0 75%;*/
+    /*background-size: auto 500px !important;*/
+/*}*/
 
 .mainService:hover .readMoreBtn {
     height: auto;

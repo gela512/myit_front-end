@@ -12,7 +12,8 @@
 
 #services ul {
     list-style: none;
-    -webkit-padding-start: 0;
+    /*-webkit-padding-start: 0;*/
+    margin-left: -40px;
     color: gray;
     margin-top: -15px;
 }
