@@ -1,0 +1,48 @@
+
+#services.servicesPage{
+    border: 1px solid rgba(0,0,0, 0.2);
+    padding-left: 15px;
+    width: 250px;
+}
+
+#serverSupportContainer{
+    float: left;
+    width: 672px;
+    padding-left: 20px;
+}
+
+#serverSupport > div{
+    padding-top: 10px;
+    float: left;
+    font-family: Arial;
+}
+
+#serverSupportContainer h3{
+    color: #34BEC1;
+    font-family: mon_bold;
+    font-size: medium;
+}
+
+#serverSupport > div:first-child{
+    width: 40%;
+}
+
+#serverSupport > div:nth-child(2){
+    width: 59%;
+}
+
+#mainServices{
+    height: 250px;
+}
+
+#mainServicesBackground img{
+    height: 250px;
+}
+
+.mainServiceContent{
+    padding-top: 30px;
+}
+
+#mainServices div:nth-child(odd)>div:hover{
+    background-position: bottom !important;
+}
