@@ -15,10 +15,11 @@ header {
     font-family: mon_bold;
 }
 
-.menuItem {
+.menuItem, .menuItem a {
     display: inline-block;
     color: gray;
     cursor: pointer;
+    text-decoration: none;
 }
 
 #languageSelector {
@@ -38,7 +39,7 @@ header {
     padding: 10px;
 }
 
-.menuItem:hover:not(:last-child){
+.menuItem:hover:not(:last-child) a{
     /*background-color: mediumturquoise;*/
     color: mediumturquoise;
 }
