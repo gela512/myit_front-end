@@ -27,6 +27,11 @@
     background-position: center;
     background-size: contain;
     cursor: pointer;
+    transition: All 0.2s ease-in;
+}
+
+.partner:hover{
+    transition: All 0.2s ease-in;
 }
 
 /*.partner img{*/
