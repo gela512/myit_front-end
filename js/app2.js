@@ -30,7 +30,7 @@ $(function () {
     var $erp = $("#erp");
 
     var $erpBG = $erp.bgswitcher({
-        images: ["images/mainServices/1new.jpg", "images/servicesPage/112.png"],
+        images: ["images/servicesPage/1121.png", "images/servicesPage/112.png"],
         interval: 1000000,
         duration: 300
     });
@@ -47,7 +47,7 @@ $(function () {
     var $cloudMail = $("#cloudMail");
 
     var $cloudMailBG = $cloudMail.bgswitcher({
-        images: ["images/mainServices/2new.jpg", "images/servicesPage/113.png"],
+        images: ["images/servicesPage/1131.png", "images/servicesPage/113.png"],
         interval: 1000000,
         duration: 300
     });
@@ -64,7 +64,7 @@ $(function () {
     var $it = $("#it");
 
     var $itBG = $it.bgswitcher({
-        images: ["images/mainServices/3new.jpg", "images/servicesPage/114.png"],
+        images: ["images/servicesPage/1141.png", "images/servicesPage/114.png"],
         interval: 1000000,
         duration: 300
     });
