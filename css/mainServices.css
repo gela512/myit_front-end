@@ -174,3 +174,8 @@
     display: inline-block;
     margin: 0 0 5px -5px;
 }
+
+
+.mainService{
+    flex-grow: 10;
+}
