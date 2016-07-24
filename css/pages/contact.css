@@ -8,6 +8,8 @@
 
 #contactUsForm h3{
     color: mediumaquamarine;
+    font-family: mon_bold;
+    font-size: large;
 }
 
 .contactDiv:first-child{
@@ -30,4 +32,8 @@
 
 #areaForStickyFooter{
     height: calc(100vh - 920px); min-height: 10px;
+}
+
+#services.servicesPage h3{
+    margin-bottom: 35px;
 }
