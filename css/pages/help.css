@@ -4,6 +4,7 @@
 #onlineHelpContainer{
     border: none;
     margin-top: -10px;
+    margin-left: 10px;
 }
 
 #areaForStickyFooter{
@@ -12,4 +13,17 @@
 
 #onlineHelpContainer h3{
     color: mediumaquamarine;
+}
+
+#onlineHelpContainer{
+    width: 568px;
+}
+
+#helpText{
+    width: 470px;
+}
+
+#onlineHelp p{
+    width: 100%;
+    line-height: 1.6;
 }
