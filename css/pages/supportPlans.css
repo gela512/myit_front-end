@@ -1,0 +1,42 @@
+@import "../main.css";
+@import "servicesPage.css";
+
+
+#coloredList{
+    color: mediumturquoise;
+}
+
+#coloredList > *{
+    color: white;
+}
+
+#totalOfficeSupport{
+    width: 600px;
+    padding-left: 20px;
+}
+
+#totalOfficeSupport h3{
+    font-size: medium;
+    font-family: mon_bold;
+    color: mediumturquoise;
+}
+
+#totalOfficeSupport > div{
+    font-family: mon_reg;
+    font-size: small;
+    line-height: 1.6;
+}
+
+#totalOfficeSupport ul{
+    margin-left: -21px;
+}
+#totalOfficeSupport ul li{
+    margin-bottom: 20px;
+    color: mediumturquoise;
+    font-size: larger;
+}
+
+#totalOfficeSupport ul li span{
+    color: black;
+    font-size: small;
+}
