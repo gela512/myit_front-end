@@ -40,3 +40,7 @@
     color: black;
     font-size: small;
 }
+
+#areaForStickyFooter{
+    height: calc(100vh - 930px); min-height: 10px;
+}

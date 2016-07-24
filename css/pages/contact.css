@@ -27,3 +27,7 @@
 .contactDiv:nth-child(2) label{
     color: rgba(79, 82, 82, 0.97);
 }
+
+#areaForStickyFooter{
+    height: calc(100vh - 920px); min-height: 10px;
+}
