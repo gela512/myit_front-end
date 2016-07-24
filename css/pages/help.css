@@ -1,0 +1,15 @@
+@import "../main.css";
+@import "contact.css";
+
+#onlineHelpContainer{
+    border: none;
+    margin-top: -10px;
+}
+
+#areaForStickyFooter{
+     height: calc(100vh - 575px); min-height: 10px;
+ }
+
+#onlineHelpContainer h3{
+    color: mediumaquamarine;
+}
