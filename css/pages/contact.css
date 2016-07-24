@@ -1,0 +1,29 @@
+@import "../main.css";
+@import "supportPlans.css";
+
+#contactUsForm{
+    width: 600px;
+    padding-left: 20px;
+}
+
+#contactUsForm h3{
+    color: mediumaquamarine;
+}
+
+.contactDiv:first-child{
+    color: #9a9090;
+    font-size: small;
+    font-family: avro_reg;
+}
+
+.contactDiv:first-child > div{
+    margin-bottom: 20px;
+}
+
+.readMoreBtn{
+    padding: 10px 20px;
+}
+
+.contactDiv:nth-child(2) label{
+    color: rgba(79, 82, 82, 0.97);
+}
