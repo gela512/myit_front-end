@@ -24,16 +24,16 @@
 #totalOfficeSupport > div{
     font-family: mon_reg;
     font-size: small;
-    line-height: 1.6;
+    line-height: 1;
 }
 
 #totalOfficeSupport ul{
-    margin-left: -21px;
+    margin-left: -17px;
 }
 #totalOfficeSupport ul li{
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     color: mediumturquoise;
-    font-size: larger;
+    font-size: x-large;
 }
 
 #totalOfficeSupport ul li span{
