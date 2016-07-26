@@ -33,27 +33,6 @@
     width: 59%;
 }
 
-#mainServices{
-    height: 250px;
-}
-
-#mainServicesBackground img{
-    height: 250px;
-}
-
-.mainServiceContent{
-    padding-top: 30px;
-}
-
-#mainServicesBackground img:nth-child(2){
-    margin-left: -300px;
-}
-
-#areaForStickyFooter{
-    height: calc(100vh - 760px); min-height: 10px;
-}
-
-
 #services .servicesPage li {
     color: #949090;
 }

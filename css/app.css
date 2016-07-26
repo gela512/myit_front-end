@@ -1,0 +1,28 @@
+@import "main.css";
+@import "contact.css";
+@import "supportPlans.css";
+@import "fonts.css";
+@import "header.css";
+@import "footer.css";
+@import "mainServices.css";
+@import "partners.css";
+@import "services.css";
+@import "pages/servicesPage.css";
+@import "pages/contact.css";
+@import "pages/help.css";
+@import "pages/supportPlans.css";
+@import "mainServicesPages.css";
+
+html{
+    min-height: 100vh;
+}
+body{
+    min-height: calc(100vh);
+    position: relative;
+    overflow: hidden;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+}

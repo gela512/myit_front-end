@@ -1,0 +1,16 @@
+
+#mainServices.little{
+    height: 250px;
+}
+
+#mainServicesBackground.little img{
+    height: 250px;
+}
+
+.mainServiceContent.little{
+    padding-top: 30px;
+}
+
+#mainServicesBackground.little img:nth-child(2){
+    margin-left: -300px;
+}

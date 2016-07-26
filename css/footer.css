@@ -1,17 +1,19 @@
 footer {
     background-color: whitesmoke;
-    padding: 20px 0 15px 0;
     font-family: avro_reg;
+    height: 60px;
 }
 
 #copyrightContainer {
     float: left;
     font-size: small;
     color: gray;
+    padding-top: 18px;
 }
 
 #author {
     float: right;
+    padding-top: 12px;
 }
 
 #author a {
