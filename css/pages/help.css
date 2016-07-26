@@ -1,29 +1,24 @@
-@import "../main.css";
-@import "contact.css";
 
-#onlineHelpContainer{
+#onlineHelpContainer.helpPage{
     border: none;
     margin-top: 0;
     margin-left: 10px;
+    width: 568px;
 }
 
 #areaForStickyFooter{
      height: calc(100vh - 575px); min-height: 10px;
  }
 
-#onlineHelpContainer h3{
+#onlineHelpContainer.helpPage h3{
     color: mediumaquamarine;
 }
 
-#onlineHelpContainer{
-    width: 568px;
-}
-
-#helpText{
+#helpText.helpPage{
     width: 470px;
 }
 
-#onlineHelp p{
+#onlineHelp.helpPage p{
     width: 100%;
     line-height: 1.6;
 }

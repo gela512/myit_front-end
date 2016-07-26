@@ -1,6 +1,3 @@
-@import "../main.css";
-@import "servicesPage.css";
-
 
 #coloredList{
     color: mediumturquoise;
@@ -13,6 +10,7 @@
 #totalOfficeSupport{
     width: 600px;
     padding-left: 20px;
+    padding-bottom: 30px;
 }
 
 #totalOfficeSupport h3{

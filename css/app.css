@@ -17,9 +17,10 @@ html{
     min-height: 100vh;
 }
 body{
-    min-height: calc(100vh);
+    min-height: calc(100vh - 60px);
     position: relative;
     overflow: hidden;
+    padding-bottom: 60px;
 }
 
 footer{

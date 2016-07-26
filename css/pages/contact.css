@@ -1,9 +1,8 @@
-@import "../main.css";
-@import "supportPlans.css";
 
 #contactUsForm{
     width: 600px;
     padding-left: 20px;
+    padding-bottom: 30px;
 }
 
 #contactUsForm h3{
