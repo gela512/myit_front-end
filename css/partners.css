@@ -96,4 +96,9 @@
 
 .partner a{
     display: block;
+    width: 100%;
+}
+
+.partner img{
+    display: block;
 }
