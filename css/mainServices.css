@@ -122,6 +122,7 @@
 .mainService .readMoreBtn {
     visibility: hidden;
     height: 0;
+    text-decoration: none;
 }
 
 .readMoreBtn {

@@ -63,6 +63,7 @@
     cursor: pointer;
     font-family: avro_reg;
     font-size: smaller;
+    display: block;
 }
 
 #building {
