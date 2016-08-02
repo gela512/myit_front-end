@@ -39,19 +39,20 @@
     align-items: flex-end;
     cursor: pointer;
     overflow: hidden;
+    height: 100%;
 }
 
-.mainService#cloudMail {
+.mainService.second {
     border-right: 1px solid rgba(224,255,255,0.3);
     border-left: 1px solid rgba(224,255,255,0.3);
 }
 
-.mainService#erp {
+.mainService.first {
     border-left: 1px solid rgba(224,255,255,0.3);
 }
 
-.mainService#it {
-    border-right: 1px solid rgba(224,255,255,0.3) ;
+.mainService.third {
+    border-right: 1px solid rgba(224,255,255,0.3);
 }
 
 .mainService:hover {
@@ -69,29 +70,37 @@
     width: 100%;
 }
 
-#cloudMail .mainServiceLogo {
-    background: url("../images/mainServices/cloudMail.png") no-repeat;
-}
+/*#cloudMail .mainServiceLogo {*/
+    /*background: url("../images/mainServices/cloudMail.png") no-repeat;*/
+/*}*/
 
-#cloudMail:hover .mainServiceLogo {
-    background: url("../images/mainServices/cloudmail_blue.png") no-repeat;
-}
+/*#cloudMail:hover .mainServiceLogo {*/
+    /*background: url("../images/mainServices/cloudmail_blue.png") no-repeat;*/
+/*}*/
 
-#erp .mainServiceLogo {
-    background: url("../images/mainServices/erp.png") no-repeat;
-}
+/*#erp .mainServiceLogo {*/
+    /*background: url("../images/mainServices/erp.png") no-repeat;*/
+/*}*/
 
-#erp:hover .mainServiceLogo {
-    background: url("../images/mainServices/erp_blue.png") no-repeat;
-}
+/*#erp:hover .mainServiceLogo {*/
+    /*background: url("../images/mainServices/erp_blue.png") no-repeat;*/
+/*}*/
 
-#it .mainServiceLogo {
-    background: url("../images/mainServices/it.png") no-repeat;
-}
+/*#it .mainServiceLogo {*/
+    /*background: url("../images/mainServices/it.png") no-repeat;*/
+/*}*/
 
-#it:hover .mainServiceLogo {
-    background: url("../images/mainServices/it_blue.png") no-repeat;
-}
+/*#it:hover .mainServiceLogo {*/
+    /*background: url("../images/mainServices/it_blue.png") no-repeat;*/
+/*}*/
+
+/*#it2 .mainServiceLogo {*/
+    /*background: url("../images/mainServices/it.png") no-repeat;*/
+/*}*/
+
+/*#it2:hover .mainServiceLogo {*/
+    /*background: url("../images/mainServices/it_blue.png") no-repeat;*/
+/*}*/
 
 .mainServiceContent {
     transition: All 0.2s ease-out;

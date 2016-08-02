@@ -5,6 +5,7 @@
     <title>Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/app.css" type="text/css">
+    <link rel="stylesheet" href="css/jssor.css" type="text/css">
 </head>
 <body>
 
@@ -39,126 +40,211 @@
 
 
 <div class="mainContainer">
+
     <div id="mainServicesBackground">
         <img id="mainServicesBackgroundGradient" src="images/mainServicesGradient.png">
         <img id="mainServicesBackgroundImage" src="images/mainServices.png">
+
+
+        <div data-u="arrowleft" class="arrowLeft sliderArrow"></div>
+        <div data-u="arrowright" class="arrowRight sliderArrow"></div>
     </div>
 
-    <div id="mainServices">
+    <div id="jssor_1"
+         style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 966px; height: 500px; overflow: hidden; visibility: hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+            <div style="position:absolute;display:block;background:url('/theme/img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+        </div>
+        <div data-u="slides"
+             style="cursor: default; position: relative; top: 0px; left: 0px; width: 966px; height: 500px; overflow: hidden;">
+            <div style="display: none;">
+                <!--<img data-u="image" src="http://cdn.jssor.com/demos/img/ancient-lady/005.jpg" />-->
+                <div class="mainService" id="erp">
 
-        <div class="mainService" id="erp">
+                    <div class="area"></div>
 
-          <div class="area"></div>
+                    <div class="mainServiceContent">
+                        <div class="ray">
+                            <div class="lineContainer">
+                                <div class="line"></div>
+                            </div>
 
-          <div class="mainServiceContent">
-              <div class="ray">
-                  <div class="lineContainer">
-                      <div class="line"></div>
-                  </div>
+                            <div class="circle">
 
-                  <div class="circle">
+                            </div>
+                        </div>
 
-                  </div>
-              </div>
+                        <div class="mainServiceLogo" data-logoUrl="images/mainServices/erp.png">
+                            <!--<img src="images/mainServices/erp.png">-->
+                        </div>
 
-              <div class="mainServiceLogo">
-                  <!--<img src="images/mainServices/erp.png">-->
-              </div>
+                        <h2 class="mainServiceTitle">ERP</h2>
 
-              <h2 class="mainServiceTitle">ERP</h2>
+                        <p class="mainServiceDescription">
+                            Even if your organization has picked up the best ERP software,
+                            it is possible ERP implementation can fail. ERP system
+                        </p>
 
-              <p class="mainServiceDescription">
-                  Even if your organization has picked up the best ERP software,
-                  it is possible ERP implementation can fail. ERP system
-              </p>
+                        <div class="readMoreBtn">
+                            READ MORE
+                        </div>
+                    </div>
 
-              <div class="readMoreBtn">
-                  READ MORE
-              </div>
-          </div>
+                    <div class="test1">
 
-          <div class="test1">
+                    </div>
 
-          </div>
+                </div>
+            </div>
+            <div style="display: none;">
+                <div class="mainService" id="cloudMail">
+
+                    <div class="area"></div>
+
+                    <div class="mainServiceContent">
+                        <div class="ray">
+                            <div class="lineContainer">
+                                <div class="line"></div>
+                            </div>
+
+                            <div class="circle">
+
+                            </div>
+
+                            <!--<div class="clear"></div>-->
+                        </div>
+
+                        <div class="mainServiceLogo" data-logoUrl="images/mainServices/cloudMail.png">
+                            <!--<img src="images/mainServices/cloudMail.png">-->
+                        </div>
+
+                        <h2 class="mainServiceTitle">CLOUD MAIL</h2>
+
+                        <p class="mainServiceDescription">
+                            Even if your organization has picked up the best ERP software,
+                            it is possible ERP implementation can fail. ERP system
+                        </p>
+
+                        <div class="readMoreBtn">
+                            READ MORE
+                        </div>
+
+
+                    </div>
+
+                    <div class="test1">
+
+                    </div>
+                </div>
+            </div>
+
+            <div style="display: none;">
+                <div class="mainService" id="it">
+
+                    <div class="area"></div>
+
+                    <div class="mainServiceContent">
+                        <div class="ray">
+                            <div class="lineContainer">
+                                <div class="line"></div>
+                            </div>
+
+                            <div class="circle">
+
+                            </div>
+                        </div>
+
+                        <div class="mainServiceLogo" data-logoUrl="images/mainServices/it.png">
+                            <!--<img src="images/mainServices/it.png">-->
+                        </div>
+
+                        <h2 class="mainServiceTitle">CLOUD MAIL</h2>
+
+                        <p class="mainServiceDescription">
+                            Even if your organization has picked up the best ERP software,
+                            it is possible ERP implementation can fail. ERP system
+                        </p>
+
+                        <div class="readMoreBtn">
+                            READ MORE
+                        </div>
+                    </div>
+
+                    <div class="test1">
+
+                    </div>
+                </div>
+            </div>
+
+            <div style="display: none;">
+                <div class="mainService" id="it2">
+
+                    <div class="area"></div>
+
+                    <div class="mainServiceContent">
+                        <div class="ray">
+                            <div class="lineContainer">
+                                <div class="line"></div>
+                            </div>
+
+                            <div class="circle">
+
+                            </div>
+                        </div>
+
+                        <div class="mainServiceLogo" data-logoUrl="images/mainServices/it.png">
+                            <!--<img src="images/mainServices/it.png">-->
+                        </div>
+
+                        <h2 class="mainServiceTitle">CLOUD MAIL</h2>
+
+                        <p class="mainServiceDescription">
+                            Even if your organization has picked up the best ERP software,
+                            it is possible ERP implementation can fail. ERP system
+                        </p>
+
+                        <div class="readMoreBtn">
+                            READ MORE
+                        </div>
+                    </div>
+
+                    <div class="test1">
+
+                    </div>
+                </div>
+            </div>
+
+            <a data-u="add" href="http://www.jssor.com" style="display:none">Jssor Slider</a>
 
         </div>
-
-        <div class="mainService" id="cloudMail">
-
-            <div class="area"></div>
-
-            <div class="mainServiceContent">
-                <div class="ray">
-                    <div class="lineContainer">
-                        <div class="line"></div>
-                    </div>
-
-                    <div class="circle">
-
-                    </div>
-
-                    <!--<div class="clear"></div>-->
-                </div>
-
-                <div class="mainServiceLogo">
-                    <!--<img src="images/mainServices/cloudMail.png">-->
-                </div>
-
-                <h2 class="mainServiceTitle">CLOUD MAIL</h2>
-
-                <p class="mainServiceDescription">
-                    Even if your organization has picked up the best ERP software,
-                    it is possible ERP implementation can fail. ERP system
-                </p>
-
-                <div class="readMoreBtn">
-                    READ MORE
-                </div>
-
-
-            </div>
-
-            <div class="test1">
-
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb03" style="bottom:10px;right:10px; display: none;">
+            <!-- bullet navigator item prototype -->
+            <div data-u="prototype" style="width:21px;height:21px; display: none;">
+                <div data-u="numbertemplate"></div>
             </div>
         </div>
+        <!-- Arrow Navigator -->
+        <!--<span data-u="arrowleft" class="jssora03l" style="top:0px;left:8px;width:55px;height:55px;" data-autocenter="2"></span>-->
+        <!--<span data-u="arrowright" class="jssora03r" style="top:0px;right:8px;width:55px;height:55px;" data-autocenter="2"></span>-->
 
-        <div class="mainService" id="it">
 
-            <div class="area"></div>
-
-            <div class="mainServiceContent">
-                <div class="ray">
-                    <div class="lineContainer">
-                        <div class="line"></div>
-                    </div>
-
-                    <div class="circle">
-
-                    </div>
-                </div>
-
-                <div class="mainServiceLogo">
-                    <!--<img src="images/mainServices/it.png">-->
-                </div>
-
-                <h2 class="mainServiceTitle">CLOUD MAIL</h2>
-
-                <p class="mainServiceDescription">
-                    Even if your organization has picked up the best ERP software,
-                    it is possible ERP implementation can fail. ERP system
-                </p>
-
-                <div class="readMoreBtn">
-                    READ MORE
-                </div>
-            </div>
-
-            <div class="test1">
-
-            </div>
-        </div>
     </div>
+
+</div>
+
+<div style="display: none; background: url(images/mainServices/bg1.jpg);">
+
+</div>
+
+<div style="display: none; background: url(images/mainServices/bg2.jpg);">
+
+</div>
+
+<div style="display: none; background: url(images/mainServices/bg3.jpg);">
+
 </div>
 
 
@@ -182,24 +268,19 @@
 
             <h3>SUPPORT PLANS</h3>
 
-
             <div id="supportPlans">
-
-
                 <div class="supportPlan">
                     <div class="supportPlanImage">
-                        <img src="images/supportPlans/building.png">
+                        <img src="images/supportPlans/building.png" data-imageHover="images/supportPlans/building_white.png" data-imageOriginal="images/supportPlans/building.png">
                     </div>
                     <div class="supportPlanContent">
                         <div class="text">total office support</div>
                         <a class="readMoreLink">read more</a>
                     </div>
                 </div>
-
-
                 <div class="supportPlan">
                     <div class="supportPlanImage">
-                        <img src="images/supportPlans/people.png">
+                        <img src="images/supportPlans/people.png" data-imageHover="images/supportPlans/people_white.png" data-imageOriginal="images/supportPlans/people.png">
                     </div>
                     <div class="supportPlanContent">
                         <div class="text">erp implementation</div>
@@ -208,7 +289,7 @@
                 </div>
                 <div class="supportPlan">
                     <div class="supportPlanImage">
-                    <img src="images/supportPlans/it.png">
+                        <img src="images/supportPlans/it.png" data-imageHover="images/supportPlans/it_white.png" data-imageOriginal="images/supportPlans/it.png">
                     </div>
                     <div class="supportPlanContent">
                         <div class="text">IT CONSULTING</div>
@@ -217,7 +298,7 @@
                 </div>
                 <div class="supportPlan">
                     <div class="supportPlanImage">
-                        <img src="images/supportPlans/it.png">
+                        <img src="images/supportPlans/it.png" data-imageHover="images/supportPlans/it_white.png" data-imageOriginal="images/supportPlans/it.png">
                     </div>
                     <div class="supportPlanContent">
                         <div class="text">PROJECTS FULJILMENT</div>
@@ -226,7 +307,7 @@
                 </div>
                 <div class="supportPlan">
                     <div class="supportPlanImage">
-                        <img src="images/supportPlans/darts.png">
+                        <img src="images/supportPlans/darts.png" data-imageHover="images/supportPlans/darts_white.png" data-imageOriginal="images/supportPlans/darts.png">
                     </div>
                     <div class="supportPlanContent">
                         <div class="text">FRESHSTART SUPPORT</div>
@@ -235,7 +316,7 @@
                 </div>
                 <div class="supportPlan">
                     <div class="supportPlanImage">
-                        <img src="images/supportPlans/darts.png">
+                        <img src="images/supportPlans/darts.png" data-imageHover="images/supportPlans/darts_white.png" data-imageOriginal="images/supportPlans/darts.png">
                     </div>
                     <div class="supportPlanContent">
                         <div class="text">CABLING SERVICE</div>
@@ -243,7 +324,6 @@
                     </div>
                 </div>
             </div>
-
 
         </div>
 
@@ -264,27 +344,33 @@
                 <div>
                     <div class="partner">
                         <a href="http://www.magti.com.ge/">
-                            <img data-imageHover ="images/partners/orientlogic_red.png" data-imageOriginal="images/partners/orientlogic.png"  src="images/partners/orientlogic.png">
+                            <img data-imageHover="images/partners/orientlogic_red.png"
+                                 data-imageOriginal="images/partners/orientlogic.png"
+                                 src="images/partners/orientlogic.png">
                         </a>
                     </div>
                     <div class="partner">
                         <a href="http://www.magti.com.ge/">
-                            <img data-imageHover ="images/partners/caucasus_red.png" data-imageOriginal="images/partners/caucasus.png" src="images/partners/caucasus.png">
+                            <img data-imageHover="images/partners/caucasus_red.png"
+                                 data-imageOriginal="images/partners/caucasus.png" src="images/partners/caucasus.png">
                         </a>
                     </div>
                     <div class="partner">
                         <a href="http://www.magti.com.ge/">
-                            <img data-imageHover ="images/partners/magti_red.png" data-imageOriginal="images/partners/magti.png" src="images/partners/magti.png">
+                            <img data-imageHover="images/partners/magti_red.png"
+                                 data-imageOriginal="images/partners/magti.png" src="images/partners/magti.png">
                         </a>
                     </div>
                     <div class="partner">
                         <a href="http://www.magti.com.ge/">
-                            <img data-imageHover ="images/partners/baracuda_red.png" data-imageOriginal="images/partners/baracuda.png" src="images/partners/baracuda.png">
+                            <img data-imageHover="images/partners/baracuda_red.png"
+                                 data-imageOriginal="images/partners/baracuda.png" src="images/partners/baracuda.png">
                         </a>
                     </div>
                     <div class="partner">
                         <a href="http://www.magti.com.ge/">
-                            <img data-imageHover ="images/partners/qnap_red.png" data-imageOriginal="images/partners/qnap.png" src="images/partners/qnap.png">
+                            <img data-imageHover="images/partners/qnap_red.png"
+                                 data-imageOriginal="images/partners/qnap.png" src="images/partners/qnap.png">
                         </a>
                     </div>
                     <div class="clear"></div>
@@ -293,12 +379,14 @@
                 <div>
                     <div class="partner">
                         <a href="http://www.magti.com.ge/">
-                            <img data-imageHover ="images/partners/mikrotik_red.png" data-imageOriginal="images/partners/mikrotik.png" src="images/partners/mikrotik.png">
+                            <img data-imageHover="images/partners/mikrotik_red.png"
+                                 data-imageOriginal="images/partners/mikrotik.png" src="images/partners/mikrotik.png">
                         </a>
                     </div>
                     <div class="partner">
                         <a href="http://www.magti.com.ge/">
-                            <img data-imageHover ="images/partners/spam_red.png" data-imageOriginal="images/partners/spam.png" src="images/partners/spam.png">
+                            <img data-imageHover="images/partners/spam_red.png"
+                                 data-imageOriginal="images/partners/spam.png" src="images/partners/spam.png">
                         </a>
                     </div>
                     <div class="clear"></div>
@@ -328,7 +416,7 @@
                     </label>
                     <label>
                         <span>Comment</span>
-                    <textarea name="comment"></textarea>
+                        <textarea name="comment"></textarea>
                     </label>
                     <label>
                         <div class="readMoreBtn">
@@ -433,9 +521,10 @@
     window.isMain = true;
 </script>
 
-<script src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
+<!--<script src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>-->
+<script src="js/jquery.js"></script>
 <script src="js/jquery.bgswitcher.js"></script>
-
+<script src="js/jssor.slider.min.js"></script>
 <script src="js/app.js"></script>
 
 </body>
