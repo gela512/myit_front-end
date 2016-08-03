@@ -39,99 +39,186 @@
 
 
 <div class="mainContainer">
+
+    <style scoped="scoped">
+        .arrowLeft {
+            background: url("images/arrow_left.png") no-repeat;
+            left: -40px;
+        }
+
+        .arrowRight {
+            background: url("images/arrow_right.png") no-repeat;
+            left: 980px;
+        }
+
+        .sliderArrow{
+            top: 110px;
+            cursor: pointer;
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            z-index: 99999999;
+        }
+    </style>
+
     <div id="mainServicesBackground" class="little">
         <img id="mainServicesBackgroundGradient" src="images/servicesPage/mainServicesGradient.png">
         <img id="mainServicesBackgroundImage" src="images/servicesPage/mainServices.png">
+
+        <div data-u="arrowleft" class="arrowLeft sliderArrow"></div>
+        <div data-u="arrowright" class="arrowRight sliderArrow"></div>
     </div>
 
-    <div id="mainServices" class="little">
+    <div id="jssor_1"
+         style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 966px; height: 250px; z-index: 999999; overflow: hidden; visibility: hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" style="position: absolute; top: 0px; left: 0px; z-index: 999999;">
+            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+            <div style="position:absolute;display:block;background:url('/theme/img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+        </div>
+        <div data-u="slides"
+             style="cursor: default; position: relative; top: 0px; left: 0px; width: 966px; height: 250px; overflow: hidden;">
+            <div style="display: none;">
+                <!--<img data-u="image" src="http://cdn.jssor.com/demos/img/ancient-lady/005.jpg" />-->
+                <div class="mainService" id="erp">
 
-        <div class="mainService" id="erp">
+                    <div class="mainServiceContent little">
+                        <div class="ray">
+                            <div class="lineContainer">
+                                <div class="line"></div>
+                            </div>
 
-            <div class="mainServiceContent little">
-                <div class="ray">
-                    <div class="lineContainer">
-                        <div class="line"></div>
+                            <div class="circle">
+
+                            </div>
+                        </div>
+
+                        <div class="mainServiceLogo">
+                            <!--<img src="images/mainServices/erp.png">-->
+                        </div>
+
+                        <h2 class="mainServiceTitle">ERP</h2>
+
+                        <p class="mainServiceDescription">
+                            Even if your organization has picked up the best ERP software,
+                            it is possible ERP implementation can fail. ERP system
+                        </p>
                     </div>
 
-                    <div class="circle">
+                </div>
+            </div>
+            <div style="display: none;">
+                <div class="mainService" id="cloudMail">
+
+                    <div class="mainServiceContent little">
+                        <div class="ray">
+                            <div class="lineContainer">
+                                <div class="line"></div>
+                            </div>
+
+                            <div class="circle">
+
+                            </div>
+
+                            <!--<div class="clear"></div>-->
+                        </div>
+
+                        <div class="mainServiceLogo">
+                            <!--<img src="images/mainServices/cloudMail.png">-->
+                        </div>
+
+                        <h2 class="mainServiceTitle">CLOUD MAIL</h2>
+
+                        <p class="mainServiceDescription">
+                            Even if your organization has picked up the best ERP software,
+                            it is possible ERP implementation can fail. ERP system
+                        </p>
 
                     </div>
+
                 </div>
-
-                <div class="mainServiceLogo">
-                    <!--<img src="images/mainServices/erp.png">-->
-                </div>
-
-                <h2 class="mainServiceTitle">ERP</h2>
-
-                <p class="mainServiceDescription">
-                    Even if your organization has picked up the best ERP software,
-                    it is possible ERP implementation can fail. ERP system
-                </p>
             </div>
 
-        </div>
+            <div style="display: none;">
+                <div class="mainService" id="it">
 
-        <div class="mainService" id="cloudMail">
+                    <div class="mainServiceContent little">
+                        <div class="ray">
+                            <div class="lineContainer">
+                                <div class="line"></div>
+                            </div>
 
-            <div class="mainServiceContent little">
-                <div class="ray">
-                    <div class="lineContainer">
-                        <div class="line"></div>
+                            <div class="circle">
+
+                            </div>
+                        </div>
+
+                        <div class="mainServiceLogo">
+                            <!--<img src="images/mainServices/it.png">-->
+                        </div>
+
+                        <h2 class="mainServiceTitle">CLOUD MAIL</h2>
+
+                        <p class="mainServiceDescription">
+                            Even if your organization has picked up the best ERP software,
+                            it is possible ERP implementation can fail. ERP system
+                        </p>
+
                     </div>
 
-                    <div class="circle">
-
-                    </div>
-
-                    <!--<div class="clear"></div>-->
                 </div>
-
-                <div class="mainServiceLogo">
-                    <!--<img src="images/mainServices/cloudMail.png">-->
-                </div>
-
-                <h2 class="mainServiceTitle">CLOUD MAIL</h2>
-
-                <p class="mainServiceDescription">
-                    Even if your organization has picked up the best ERP software,
-                    it is possible ERP implementation can fail. ERP system
-                </p>
-
             </div>
 
-        </div>
+            <div style="display: none;">
+                <div class="mainService" id="it2">
 
-        <div class="mainService" id="it">
+                    <div class="mainServiceContent little">
+                        <div class="ray">
+                            <div class="lineContainer">
+                                <div class="line"></div>
+                            </div>
 
-            <div class="mainServiceContent little">
-                <div class="ray">
-                    <div class="lineContainer">
-                        <div class="line"></div>
+                            <div class="circle">
+
+                            </div>
+                        </div>
+
+                        <div class="mainServiceLogo" data-logoUrl="images/mainServices/erp.png">
+                            <!--<img src="images/mainServices/it.png">-->
+                        </div>
+
+                        <h2 class="mainServiceTitle">CLOUD MAIL</h2>
+
+                        <p class="mainServiceDescription">
+                            Even if your organization has picked up the best ERP software,
+                            it is possible ERP implementation can fail. ERP system
+                        </p>
+
                     </div>
 
-                    <div class="circle">
-
-                    </div>
                 </div>
-
-                <div class="mainServiceLogo">
-                    <!--<img src="images/mainServices/it.png">-->
-                </div>
-
-                <h2 class="mainServiceTitle">CLOUD MAIL</h2>
-
-                <p class="mainServiceDescription">
-                    Even if your organization has picked up the best ERP software,
-                    it is possible ERP implementation can fail. ERP system
-                </p>
-
             </div>
 
+            <a data-u="add" href="http://www.jssor.com" style="display:none">Jssor Slider</a>
+
         </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb03" style="bottom:10px;right:10px; display: none;">
+            <!-- bullet navigator item prototype -->
+            <div data-u="prototype" style="width:21px;height:21px; display: none;">
+                <div data-u="numbertemplate"></div>
+            </div>
+        </div>
+        <!-- Arrow Navigator -->
+        <!--<span data-u="arrowleft" class="jssora03l" style="top:0px;left:8px;width:55px;height:55px;" data-autocenter="2"></span>-->
+        <!--<span data-u="arrowright" class="jssora03r" style="top:0px;right:8px;width:55px;height:55px;" data-autocenter="2"></span>-->
+
+
     </div>
+
 </div>
+
+
 
 <div class="mainContainer" id="middle">
     <div class="container">
@@ -265,10 +352,10 @@
     </div>
 </footer>
 
-<script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="
-        crossorigin="anonymous"></script>
+<!--<script src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>-->
+<script src="js/jquery.js"></script>
 <script src="js/jquery.bgswitcher.js"></script>
-
+<script src="js/jssor.slider.min.js"></script>
 <script src="js/app.js"></script>
 
 </body>

@@ -198,6 +198,14 @@ var urls = [
     'images/mainServices/bg3.jpg'
 ];
 
+var urls2 = [
+    'images/servicesPage/1121.png',
+    'images/servicesPage/112.png',
+    'images/servicesPage/1131.png',
+    'images/servicesPage/113.png',
+    'images/servicesPage/1141.png',
+    'images/servicesPage/114.png'
+];
 
 $(function () {
     var startSlider = function () {
@@ -242,15 +250,17 @@ $(function () {
             arr.forEach(function (i, n) {
                 var el = $('.mainService').eq(i)[0];
 
+                var urlArr = window.isMain ? urls : urls2;
+
                 $(el).on('mouseenter', function () {
-                    changeBackground($(el), urls[(n + 1) * 2 - 1]);
+                    changeBackground($(el), urlArr[(n + 1) * 2 - 1]);
                 });
 
                 $(el).on('mouseleave', function () {
-                    changeBackground($(el), urls[(n + 1) * 2 - 2]);
+                    changeBackground($(el), urlArr[(n + 1) * 2 - 2]);
                 });
 
-                changeBackground($(el), urls[(n + 1) * 2 - 2]);
+                changeBackground($(el), urlArr[(n + 1) * 2 - 2]);
 
                 ['first', 'second', 'third'].forEach(function (cl) {
                     $(el).removeClass(cl);
@@ -270,5 +280,10 @@ $(function () {
             sliderObj.$Next();
         });
     };
+
     startSlider();
 });
+
+
+
+

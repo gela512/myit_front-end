@@ -39,31 +39,50 @@
 
 
 <div class="mainContainer">
-    <div id="mainServicesBackground">
-        <img id="mainServicesBackgroundGradient" src="images/mainServicesGradient.png">
-        <img id="mainServicesBackgroundImage" src="images/mainServices.png">
 
+    <style scoped="scoped">
+        .arrowLeft {
+            background: url("images/arrow_left.png") no-repeat;
+            left: -40px;
+        }
+
+        .arrowRight {
+            background: url("images/arrow_right.png") no-repeat;
+            left: 980px;
+        }
+
+        .sliderArrow{
+            top: 110px;
+            cursor: pointer;
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            z-index: 99999999;
+        }
+    </style>
+
+    <div id="mainServicesBackground" class="little">
+        <img id="mainServicesBackgroundGradient" src="images/servicesPage/mainServicesGradient.png">
+        <img id="mainServicesBackgroundImage" src="images/servicesPage/mainServices.png">
 
         <div data-u="arrowleft" class="arrowLeft sliderArrow"></div>
         <div data-u="arrowright" class="arrowRight sliderArrow"></div>
     </div>
 
     <div id="jssor_1"
-         style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 966px; height: 500px; overflow: hidden; visibility: hidden;">
+         style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 966px; height: 250px; z-index: 999999; overflow: hidden; visibility: hidden;">
         <!-- Loading Screen -->
-        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+        <div data-u="loading" style="position: absolute; top: 0px; left: 0px; z-index: 999999;">
             <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
             <div style="position:absolute;display:block;background:url('/theme/img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
         </div>
         <div data-u="slides"
-             style="cursor: default; position: relative; top: 0px; left: 0px; width: 966px; height: 500px; overflow: hidden;">
+             style="cursor: default; position: relative; top: 0px; left: 0px; width: 966px; height: 250px; overflow: hidden;">
             <div style="display: none;">
                 <!--<img data-u="image" src="http://cdn.jssor.com/demos/img/ancient-lady/005.jpg" />-->
                 <div class="mainService" id="erp">
 
-                    <div class="area"></div>
-
-                    <div class="mainServiceContent">
+                    <div class="mainServiceContent little">
                         <div class="ray">
                             <div class="lineContainer">
                                 <div class="line"></div>
@@ -74,7 +93,7 @@
                             </div>
                         </div>
 
-                        <div class="mainServiceLogo" data-logoUrl="images/mainServices/erp.png">
+                        <div class="mainServiceLogo">
                             <!--<img src="images/mainServices/erp.png">-->
                         </div>
 
@@ -84,14 +103,6 @@
                             Even if your organization has picked up the best ERP software,
                             it is possible ERP implementation can fail. ERP system
                         </p>
-
-                        <div class="readMoreBtn">
-                            READ MORE
-                        </div>
-                    </div>
-
-                    <div class="test1">
-
                     </div>
 
                 </div>
@@ -99,9 +110,7 @@
             <div style="display: none;">
                 <div class="mainService" id="cloudMail">
 
-                    <div class="area"></div>
-
-                    <div class="mainServiceContent">
+                    <div class="mainServiceContent little">
                         <div class="ray">
                             <div class="lineContainer">
                                 <div class="line"></div>
@@ -114,7 +123,7 @@
                             <!--<div class="clear"></div>-->
                         </div>
 
-                        <div class="mainServiceLogo" data-logoUrl="images/mainServices/cloudMail.png">
+                        <div class="mainServiceLogo">
                             <!--<img src="images/mainServices/cloudMail.png">-->
                         </div>
 
@@ -125,25 +134,15 @@
                             it is possible ERP implementation can fail. ERP system
                         </p>
 
-                        <div class="readMoreBtn">
-                            READ MORE
-                        </div>
-
-
                     </div>
 
-                    <div class="test1">
-
-                    </div>
                 </div>
             </div>
 
             <div style="display: none;">
                 <div class="mainService" id="it">
 
-                    <div class="area"></div>
-
-                    <div class="mainServiceContent">
+                    <div class="mainServiceContent little">
                         <div class="ray">
                             <div class="lineContainer">
                                 <div class="line"></div>
@@ -154,7 +153,7 @@
                             </div>
                         </div>
 
-                        <div class="mainServiceLogo" data-logoUrl="images/mainServices/it.png">
+                        <div class="mainServiceLogo">
                             <!--<img src="images/mainServices/it.png">-->
                         </div>
 
@@ -165,23 +164,15 @@
                             it is possible ERP implementation can fail. ERP system
                         </p>
 
-                        <div class="readMoreBtn">
-                            READ MORE
-                        </div>
                     </div>
 
-                    <div class="test1">
-
-                    </div>
                 </div>
             </div>
 
             <div style="display: none;">
                 <div class="mainService" id="it2">
 
-                    <div class="area"></div>
-
-                    <div class="mainServiceContent">
+                    <div class="mainServiceContent little">
                         <div class="ray">
                             <div class="lineContainer">
                                 <div class="line"></div>
@@ -192,7 +183,7 @@
                             </div>
                         </div>
 
-                        <div class="mainServiceLogo" data-logoUrl="images/mainServices/it.png">
+                        <div class="mainServiceLogo" data-logoUrl="images/mainServices/erp.png">
                             <!--<img src="images/mainServices/it.png">-->
                         </div>
 
@@ -203,14 +194,8 @@
                             it is possible ERP implementation can fail. ERP system
                         </p>
 
-                        <div class="readMoreBtn">
-                            READ MORE
-                        </div>
                     </div>
 
-                    <div class="test1">
-
-                    </div>
                 </div>
             </div>
 
@@ -230,6 +215,7 @@
 
 
     </div>
+
 </div>
 
 
