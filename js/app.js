@@ -2,137 +2,6 @@
  * Created by tazo on 7/21/2016.
  */
 
-// if (window.isMain == true) {
-//
-//     $(function () {
-//
-//         var $erp = $("#erp");
-//
-//         var $erpBG = $erp.bgswitcher({
-//             images: ["images/mainServices/1new.jpg", "images/mainServices/bg1.jpg"],
-//             interval: 1000000,
-//             duration: 300
-//         });
-//
-//         $erp.on("mouseenter", function () {
-//             $erpBG.bgswitcher("next");
-//         });
-//
-//         $erp.on("mouseleave", function () {
-//             $erpBG.bgswitcher("next");
-//         });
-//
-//
-//         var $cloudMail = $("#cloudMail");
-//
-//         var $cloudMailBG = $cloudMail.bgswitcher({
-//             images: ["images/mainServices/2new.jpg", "images/mainServices/bg2.jpg"],
-//             interval: 1000000,
-//             duration: 300
-//         });
-//
-//         $cloudMail.on("mouseenter", function () {
-//             $cloudMailBG.bgswitcher("next");
-//         });
-//
-//         $cloudMail.on("mouseleave", function () {
-//             $cloudMailBG.bgswitcher("next");
-//         });
-//
-//
-//         var $it = $("#it");
-//
-//         var $itBG = $it.bgswitcher({
-//             images: ["images/mainServices/3new.jpg", "images/mainServices/bg3.jpg"],
-//             interval: 1000000,
-//             duration: 300
-//         });
-//
-//         $it.on("mouseenter", function () {
-//             $itBG.bgswitcher("next");
-//         });
-//
-//         $it.on("mouseleave", function () {
-//             $itBG.bgswitcher("next");
-//         });
-//
-//         var $it2 = $("#it2");
-//
-//         var $it2BG = $it2.bgswitcher({
-//             images: ["images/mainServices/3new.jpg", "images/mainServices/bg3.jpg"],
-//             interval: 1000000,
-//             duration: 300
-//         });
-//
-//         $it2.on("mouseenter", function () {
-//             $it2BG.bgswitcher("next");
-//         });
-//
-//         $it2.on("mouseleave", function () {
-//             $it2BG.bgswitcher("next");
-//         });
-//
-//         setTimeout(function () {
-//             $(window).trigger('resize');
-//         }, 300);
-//
-//     });
-// }
-// else{
-//     $(function () {
-//
-//         var $erp = $("#erp");
-//
-//         var $erpBG = $erp.bgswitcher({
-//             images: ["images/servicesPage/1121.png", "images/servicesPage/112.png"],
-//             interval: 1000000,
-//             duration: 300
-//         });
-//
-//         $erp.on("mouseenter", function() {
-//             $erpBG.bgswitcher("next");
-//         });
-//
-//         $erp.on("mouseleave", function() {
-//             $erpBG.bgswitcher("next");
-//         });
-//
-//
-//         var $cloudMail = $("#cloudMail");
-//
-//         var $cloudMailBG = $cloudMail.bgswitcher({
-//             images: ["images/servicesPage/1131.png", "images/servicesPage/113.png"],
-//             interval: 1000000,
-//             duration: 300
-//         });
-//
-//         $cloudMail.on("mouseenter", function() {
-//             $cloudMailBG.bgswitcher("next");
-//         });
-//
-//         $cloudMail.on("mouseleave", function() {
-//             $cloudMailBG.bgswitcher("next");
-//         });
-//
-//
-//         var $it = $("#it");
-//
-//         var $itBG = $it.bgswitcher({
-//             images: ["images/servicesPage/1141.png", "images/servicesPage/114.png"],
-//             interval: 1000000,
-//             duration: 300
-//         });
-//
-//         $it.on("mouseenter", function() {
-//             $itBG.bgswitcher("next");
-//         });
-//
-//         $it.on("mouseleave", function() {
-//             $itBG.bgswitcher("next");
-//         });
-//     });
-// }
-
 // show main services logos in slider
 $(function () {
     $('.mainService').each(function (i, el) {
@@ -215,7 +84,7 @@ $(function () {
             $AutoPlaySteps: 1,
             $SlideDuration: 160,
             $SlideWidth: 320,
-            $SlideSpacing: 3,
+            $SlideSpacing: 0,
             $Cols: 3,
             $ArrowNavigatorOptions: {
                 $Class: $JssorArrowNavigator$,
