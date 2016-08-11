@@ -2,6 +2,7 @@
     font-family: mon_bold;
     color: gray;
     text-transform: uppercase;
+    font-size: medium;
 }
 
 #contact {
@@ -22,6 +23,10 @@
 form label, form input, form textarea {
     display: block;
     width: 90%;
+}
+
+form label:not(:last-child) input{
+    height: 28px;
 }
 
 form label input, form label textarea {
@@ -94,6 +99,9 @@ form label:last-child {
 }
 
 #contactForm .readMoreBtn{
-    padding: 15px;
+    padding: 12px 15px;
     background-color: mediumturquoise;
+    display: block;
+    border-radius: 0;
+    width: 100px;
 }
