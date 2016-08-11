@@ -11,22 +11,22 @@ $(function () {
     });
 });
 
-// partners images hover
-$(function () {
-    var $partner = $('.partner');
-
-    $partner.on('mouseenter', function () {
-        var $img = $($(this).find('img').get(0));
-        var imagePath = $img.attr('data-imageHover');
-        $img.attr('src', imagePath);
-    });
-
-    $partner.on('mouseleave', function () {
-        var $img = $($(this).find('img').get(0));
-        var imagePath = $img.attr('data-imageOriginal');
-        $img.attr('src', imagePath);
-    })
-});
+// // partners images hover
+// $(function () {
+//     var $partner = $('.partner');
+//
+//     $partner.on('mouseenter', function () {
+//         var $img = $($(this).find('img').get(0));
+//         var imagePath = $img.attr('data-imageHover');
+//         $img.attr('src', imagePath);
+//     });
+//
+//     $partner.on('mouseleave', function () {
+//         var $img = $($(this).find('img').get(0));
+//         var imagePath = $img.attr('data-imageOriginal');
+//         $img.attr('src', imagePath);
+//     })
+// });
 
 // support plans images
 $(function () {

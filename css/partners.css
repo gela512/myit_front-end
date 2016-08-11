@@ -30,8 +30,21 @@
     transition: All 0.2s ease-in;
 }
 
-.partner:hover{
+.partner img{
+    -moz-filter:grayscale(100%);
+    -webkit-filter:grayscale(100%);
+    -o-filter:grayscale(100%);
+    -ms-filter:grayscale(100%);
+    filter:grayscale(100%);
+}
+
+.partner img:hover {
     transition: All 0.2s ease-in;
+    -moz-filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    filter: grayscale(0%);
 }
 
 /*.partner img{*/
